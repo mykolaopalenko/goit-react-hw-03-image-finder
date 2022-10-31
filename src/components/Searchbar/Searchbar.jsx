@@ -46,7 +46,3 @@ SearchForm.propTypes = {
   onSubmit: PropTypes.func.isRequired,
 };
 
-SearchFormInput.propTypes = {
-  onChange: PropTypes.func.isRequired,
-  value: PropTypes.string.isRequired,
-};

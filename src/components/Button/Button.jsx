@@ -11,6 +11,8 @@ export class LoadMoreBtn extends Component {
       </Button>
     );
   }
-}
+};
 
-LoadMoreBtn.propTypes = { onClick: PropTypes.func };
+LoadMoreBtn.propTypes = {
+   onClick: PropTypes.func.isRequired,
+ };

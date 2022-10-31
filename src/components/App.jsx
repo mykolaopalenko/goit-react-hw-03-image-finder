@@ -82,16 +82,16 @@ export class App extends Component {
   };
 
   toggleModal = () => {
-    this.setState(prevState => ({
-      isModalOpen: !prevState.isModalOpen,
-    }));
-  };
+   this.setState(prevState => ({
+     isModalOpen: !prevState.isModalOpen,
+   }));
+ };
 
-  getBigImage = async image => {
-    this.setState(prevState => {
-      return { modalImage: image };
-    });
-  };
+ getBigImage = async image => {
+   this.setState(prevState => {
+     return { modalImage: image };
+   });
+ };
 
   render() {
     return (
