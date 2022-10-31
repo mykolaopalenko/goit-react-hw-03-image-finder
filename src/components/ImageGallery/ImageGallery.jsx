@@ -5,7 +5,7 @@ import { ImageGalleryCss } from './ImageGallery.styled';
 
 export class ImageGallery extends Component {
   render() {
-    const { images, openModal, getBigImage } = this.props;
+    const { gallery, openModal, getBigImage } = this.props;
 
     return (
       <ImageGalleryCss
@@ -16,7 +16,7 @@ export class ImageGallery extends Component {
           openModal();
         }}
       >
-        {images.map(img => {
+        {gallery.map(img => {
           return <ImageGalleryItem key={img.id} image={img} />;
         })}
       </ImageGalleryCss>
