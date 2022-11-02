@@ -37,7 +37,7 @@ export class Modal extends Component {
 }
 
 Modal.propTypes = {
-  onClose: PropTypes.func,
+  closeModal: PropTypes.func,
   image: PropTypes.shape({
     url: PropTypes.string.isRequired,
     tags: PropTypes.string.isRequired,
